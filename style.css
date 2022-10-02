@@ -11,7 +11,7 @@
 
 .head{
     display: flex;
-    gap: 200px;
+    gap: 210px;
     background-color: rgb(121, 209, 211);
     margin: auto;
     padding: 14px;
@@ -19,12 +19,9 @@
     color: white;    
     font-size: 1.5em;
 }
-button:hover{
-    cursor: pointer;
-}
+
 .accor{
     border: 1px solid rgb(122, 120, 120);
-    border-radius: 2px;
     width: 70%;
     margin: auto;
 }
@@ -42,10 +39,14 @@ i{
     color: white;
     margin-right: 100px;
 }
-
 .active{
     transform: rotate(180deg);
 }
+
+i:hover{
+    cursor: pointer;
+}
 h1{
     text-align: center;
+    color: rgb(121, 209, 211)
 }
